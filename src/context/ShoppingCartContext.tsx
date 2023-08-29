@@ -78,7 +78,6 @@ export function ShoppingCartProvider({ children }: ShoppingCartProviderProps) {
         decreaseCartQuantity,
         removeFromCart,
     };
-
     return (
         <ShoppingCartContextObj.Provider value={contextValue}>
             {children}
