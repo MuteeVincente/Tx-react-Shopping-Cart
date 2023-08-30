@@ -96,7 +96,7 @@ export function ShoppingCartProvider({ children }: ShoppingCartProviderProps) {
     return (
         <ShoppingCartContextObj.Provider value={contextValue}>
             {children}
-           <ShoppingCart />
+           <ShoppingCart isOpen ={isOpen} />
 
         </ShoppingCartContextObj.Provider>
     );
