@@ -22,5 +22,17 @@
     "name": "Car",
     "price": 14000,
     "imgUrl": "/imgs/car.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Pen",
+    "price": 5,
+    "imgUrl": "/imgs/pen.jpg"
+  },
+  {
+    "id":6,
+    "name": "Shoe",
+    "price": 40,
+    "imgUrl": "/imgs/shoe.jpg"
   }
 ]
