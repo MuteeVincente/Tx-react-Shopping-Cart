@@ -1,5 +1,5 @@
 import { createContext, useContext, useState, ReactNode } from "react"; // Don't forget to import ReactNode
-
+import {ShoppingCart} from '../components/ShoppingCart';
 // Define props for the ShoppingCartProvider component
 type ShoppingCartProviderProps = {
     children: ReactNode;
@@ -96,6 +96,8 @@ export function ShoppingCartProvider({ children }: ShoppingCartProviderProps) {
     return (
         <ShoppingCartContextObj.Provider value={contextValue}>
             {children}
+           <ShoppingCart />
+
         </ShoppingCartContextObj.Provider>
     );
 }
